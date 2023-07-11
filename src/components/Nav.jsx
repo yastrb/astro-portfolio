@@ -39,12 +39,17 @@ const Nav = () => {
                 </div>
 
             </div>
+            <motion.div 
+                animate={{ opacity: 1, y:  0 }}
+                initial = {{opacity: 0, y: -25}}
+            >
             <nav className={`flex flex-col lg:flex-row ${toggled ? 'hidden' : ''}`}>
                 <a href="/">Home</a>
                 <a href="/about">About</a>
                 <a href="/projects">Projects</a>
                 <a href="/contact">Contact</a>
             </nav>
+            </motion.div>
         </header>
     );
 };
