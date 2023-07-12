@@ -25,7 +25,7 @@ module.exports = {
 		},
 		fontFamily: {
 			// Headings
-			sans: ['Inter', 'sans-serif'],
+			sans: ['Albert Sans Variable', 'sans-serif'],
 			// Base text
 			monospace: ['Inconsolata', 'monospace'],
 		},

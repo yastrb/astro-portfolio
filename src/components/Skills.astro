@@ -1,7 +1,18 @@
 ﻿---
-
+import Skill from "./Skill.astro";
 ---
-<section class=" flex flex-col items-center my-8">
+<section class=" relative flex flex-col items-center my-8 ">
     <h2 class=" font-bold text-2xl my-4">Skills & Languages</h2>
     <p class=" m-auto text-xl max-w-[30rem] ">I am constantly working on my development skills. I like to learn something new everyday. Here is a quick breakdown of the things I know.</p>
+    <div class=" w-full" >
+        <div class="px-6 my-6 mx-auto">
+            <div class=" mx-auto flex flex-col flex-wrap sm:flex-row justify-center gap-5 px-9 max-w-3xl">
+                <Skill title="HTML, CSS" path="/projects"></Skill>
+                <Skill title="JavaScript" path="/projects"></Skill>
+                <Skill title="React" path="/projects"></Skill>
+                <Skill title="Astro" path="/projects"></Skill>
+            </div>
+        </div>
+        
+    </div>
 </section>

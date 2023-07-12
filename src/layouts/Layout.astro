@@ -5,6 +5,8 @@ export interface Props {
 
 const { title } = Astro.props;
 import Nav from '../components/Nav';
+// import '@fontsource/albert-sans';
+
 
 ---
 
@@ -19,7 +21,7 @@ import Nav from '../components/Nav';
 		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 		<title>{title}</title>
 	</head>
-	<body class=" mx-auto max-w-screen-xl bg-white px-5 font-sans  dark:bg-black xs:text-[16px] md:text-[18px]">
+	<body class=" mx-auto max-w-screen-xl bg-white font-sans  dark:bg-black xs:text-[16px] md:text-[18px]">
 		<main>
 		<Nav client:visible />
 			<slot />
