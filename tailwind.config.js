@@ -21,7 +21,7 @@ module.exports = {
 			xl: '1280px',
 		},
 		colors: {
-			
+			main: '#43B75D'
 		},
 		fontFamily: {
 			// Headings
@@ -41,5 +41,9 @@ module.exports = {
 			'4xl': '2.25rem',
 			'5xl': '3rem',
 		},
+		gridTemplateColumns: {
+			"2": '0.5fr,3fr',
+			"3": 'max-content, 1fr, 1fr'
+		}
 	},
 };
