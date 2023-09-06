@@ -9,7 +9,7 @@ const Nav = () => {
     };
 
     return (
-        <header className=" w-full mx-auto h-20 font-semibold px-6 flex flex-col justify-center lg:items-center lg:flex-row lg:justify-between shadow-md fixed z-10 bg-[#ffffff] ">
+        <header className=" w-full mx-auto h-20 font-semibold px-6 flex flex-col justify-center lg:items-center lg:flex-row lg:justify-between shadow-md fixed z-10 bg-transparent backdrop-blur-md cvvb bn">
             <div className="flex items-center justify-between">
 
                 <a href="https://docs.google.com/document/d/your-document-id/export?format=pdf" download >
@@ -25,7 +25,7 @@ const Nav = () => {
                                 <path
                                     fill="none"
                                     stroke="currentColor"
-                                    strokeLinecap="round"
+                                    strokeLinecap="round" 
                                     strokeLinejoin="round"
                                     strokeWidth="2.5"
                                     d="M3 6h18M3 12h18M3 18h18"

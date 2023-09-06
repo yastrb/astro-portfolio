@@ -21,7 +21,10 @@ module.exports = {
 			xl: '1280px',
 		},
 		colors: {
-			main: '#43B75D'
+			main: '#0aff9d',
+			background:'#232323',
+			text:'#ebecf3',
+			dark:'#080808',
 		},
 		fontFamily: {
 			// Headings
