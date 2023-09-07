@@ -1,0 +1,12 @@
+﻿---
+import {SEO} from "astro-seo";
+const {title, SeoTitle, SeoDesc} = Astro.props;
+---
+<head>
+    <SEO title={SeoTitle} description={SeoDesc}/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>{title}</title>
+</head>

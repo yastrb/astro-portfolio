@@ -3,8 +3,9 @@ export interface Props {
 	title: string;
 }
 
-const { title } = Astro.props;
+const { title, SeoTitle, SeoDesc } = Astro.props;
 import Nav from '../components/Nav';
+import MainHead from './MainHead.astro';
 // import '@fontsource/albert-sans';
 
 
@@ -12,15 +13,7 @@ import Nav from '../components/Nav';
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description">
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-		<title>{title}</title>
-	</head>
+	<MainHead title={title} SeoTitle={SeoTitle} SeoDesc={SeoDesc}/>
 	<body class=" mx-auto max-w-screen-xl  font-sans  dark:bg-black xs:text-[16px] md:text-[18px]">
 		<main>
 		<Nav client:visible />
