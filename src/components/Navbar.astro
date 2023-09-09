@@ -1,0 +1,51 @@
+﻿---
+import {
+  Astronav,
+  MenuItems,
+  MenuIcon,
+  Dropdown,
+  DropdownItems,
+  DropdownSubmenu,
+} from "astro-navbar";
+---
+
+<header class=" flex flex-col lg:flex-row w-full mx-auto font-semibold px-6 py-6  justify-center lg:items-center  lg:justify-between shadow-md fixed z-10 lg:bg-opacity-0  lg:backdrop-blur-md bg-[#fff] ">
+  
+  <Astronav closeOnClick>
+
+    <div class=" w-full flex items-center justify-between">
+      <!-- button CV -->
+      <a
+        href="https://docs.google.com/document/d/your-document-id/export?format=pdf"
+        download
+      >
+        <button class="bg-main text-[#ffffff] px-4 py-2 rounded-3xl"
+          >Download CV</button
+        >
+      </a>
+          <!-- toggle -->
+          <MenuIcon class="w-6 h-6 text-gray-800 lg:hidden" />
+
+        </div>
+
+      <MenuItems class=" hidden flex-col lg:flex mt-8 lg:mt-0 lg:h-full h-[100vh] ">
+        <ul class=" flex flex-col lg:flex-row lg:gap-5 gap-5">
+        <a class="mx-3 py-2" href="/">Home</a>
+        <a class="mx-3 py-2" href="/about">About</a>
+        <a class="mx-3 py-2" href="/projects">Projects</a>
+        <a class="mx-3 py-2" href="/contact">Contact</a>
+        <button
+          aria-label="theme-button"
+          id="theme-button"
+          class="dark:text-light rounded-lg p-4 ml-2 bg-slate-100 dark:bg-[#202020]"
+        ></button>
+        </ul>
+        
+      </MenuItems>
+
+  
+    
+  </Astronav>
+</header>
+
+

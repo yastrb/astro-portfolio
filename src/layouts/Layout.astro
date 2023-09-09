@@ -4,8 +4,10 @@ export interface Props {
 }
 
 const { title, SeoTitle, SeoDesc } = Astro.props;
-import Nav from '../components/Nav';
+// import Nav from '../components/Nav';
+import Navbar from '../components/Navbar.astro'
 import MainHead from './MainHead.astro';
+import Footer from '../components/Footer.astro';
 // import '@fontsource/albert-sans';
 
 
@@ -16,10 +18,11 @@ import MainHead from './MainHead.astro';
 	<MainHead title={title} SeoTitle={SeoTitle} SeoDesc={SeoDesc}/>
 	<body class=" mx-auto max-w-screen-xl  font-sans  dark:bg-black xs:text-[16px] md:text-[18px]">
 		<main>
-		<Nav client:visible />
+		<!-- <Nav client:visible /> -->
+		<Navbar client:visible/>
 			<slot />
 		</main>
-
+		<Footer/>
 	</body>
 </html>
 
