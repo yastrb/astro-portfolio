@@ -2,12 +2,19 @@
 const {title, url, img} = Astro.props
 import {Image } from "astro:assets"
 ---
-<div class=" flex flex-col justify-between text-center px-3 py-5  w-full h-full rounded-xl border-solid border-2 border-[#c1c7dd39] shadow-xl hover:shadow-2xl transition-all"
+<article class= "mx-auto w-[20rem] h-[20rem] overflow-hidden relative group"
 >
-<a href={url} >
-    <h3 class="font-black">{title}</h3>
-    <img class="" src={img} alt="">
+
+<a 
+href={url}
+target="_blank" 
+>
+    <!-- <h3 class="font-black">{title}</h3> -->
+    <img 
+    class=" w-full h-full scale-100 hover:scale-110 transition duration-[1.5s]" 
+    src={img} 
+    alt="">
     
 
     </a>
-</div>
+</article>

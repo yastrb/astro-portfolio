@@ -12,6 +12,20 @@
             "src": "../src/images/img_3.png",
             "title":"Juice",
             "url": "https://yastrb.github.io/juice-responsive/"
+        },
+        {
+            "id": "1",
+            "src": "../src/images/img_2.png",
+            "title":"Fairy Forest",
+            "url":"https://yastrb.github.io/Parallax-landing/"
+
+        },
+        {
+            "id": "2",
+            "src": "../src/images/img_3.png",
+            "title":"Juice",
+            "url": "https://yastrb.github.io/juice-responsive/"
         }
+
     ]
 }
