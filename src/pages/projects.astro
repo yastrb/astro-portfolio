@@ -1,7 +1,9 @@
 ﻿---
 import Layout from "../layouts/Layout.astro"
 import ProjectCard from "../components/ProjectCard.astro";
-const allProjects= await Astro.glob('../pages/data/*.md');
+// const allProjects= await Astro.glob('../pages/data/*.md');
+import data from "../../public/data.json";
+
 ---
 
 <Layout
@@ -13,7 +15,7 @@ const allProjects= await Astro.glob('../pages/data/*.md');
     <div class="w-8/12 lg:w-6/12">
       <h1>My Projects</h1>
       <div class="grid md:grid-cols-2 grid-cols-1 gap-4 my-16">
-        <!-- {projects.map((project) => <ProjectCard projectDetail={project} />)} -->
+        {data.projects.map((project) => <ProjectCard img={project.src} title={project.title} url={} />)}
       </div>
     </div>
   </section>

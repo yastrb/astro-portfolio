@@ -1,0 +1,14 @@
+﻿{
+    "projects" : [
+        {
+            "id": "1",
+            "src": "../src/images/Screenshot_1.png",
+            "title":"Animals"
+        },
+        {
+            "id": "2",
+            "src": "",
+            "title":"Antools"
+        }
+    ]
+}
