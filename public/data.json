@@ -2,13 +2,16 @@
     "projects" : [
         {
             "id": "1",
-            "src": "../src/images/Screenshot_1.png",
-            "title":"Animals"
+            "src": "../src/images/img_2.png",
+            "title":"Fairy Forest",
+            "url":"https://yastrb.github.io/Parallax-landing/"
+
         },
         {
             "id": "2",
-            "src": "",
-            "title":"Antools"
+            "src": "../src/images/img_3.png",
+            "title":"Juice",
+            "url": "https://yastrb.github.io/juice-responsive/"
         }
     ]
 }

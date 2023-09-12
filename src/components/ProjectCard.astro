@@ -2,13 +2,12 @@
 const {title, url, img} = Astro.props
 import {Image } from "astro:assets"
 ---
-<div
-    class=" flex flex-col justify-between text-center px-3 py-5 md:w-[16rem] w-full h-[16rem] rounded-xl border-solid border-2 border-[#c1c7dd39] shadow-xl hover:shadow-2xl transition-all"
+<div class=" flex flex-col justify-between text-center px-3 py-5  w-full h-full rounded-xl border-solid border-2 border-[#c1c7dd39] shadow-xl hover:shadow-2xl transition-all"
 >
+<a href={url} >
     <h3 class="font-black">{title}</h3>
-    <!--  -->
-    <img src={img} alt="">
-    <a href={url} >
-        <button class=" p-3 bg-gradient-to-br from-[#b3acf9] to-[#ff9574] transition ease-in-out hover:scale-110 duration-700  hover:bg-gradient-to-tl rounded-md text-[#ffffff]">view projects</button>
+    <img class="" src={img} alt="">
+    
+
     </a>
 </div>
