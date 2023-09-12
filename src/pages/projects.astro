@@ -1,10 +1,20 @@
 ﻿---
-import Layout from "../layouts/Layout.astro";
+import Layout from "../layouts/Layout.astro"
+import ProjectCard from "../components/ProjectCard.astro";
+const allProjects= await Astro.glob('../pages/data/*.md');
 ---
-<Layout SeoTitle="Projects" SeoDesc="Projects made with in Astro, React, JavaScript"> 
-     <div>
-        <div>projects will be here soon
 
-        </div>
-     </div>
+<Layout
+  title="My projects"
+  SeoTitle="Projects"
+  SeoDesc="Projects/apps made with Astro, React, React Native and JavaScript"
+>
+  <section class="flex max-w-4xl mx-auto pt-32 px-4">
+    <div class="w-8/12 lg:w-6/12">
+      <h1>My Projects</h1>
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-4 my-16">
+        <!-- {projects.map((project) => <ProjectCard projectDetail={project} />)} -->
+      </div>
+    </div>
+  </section>
 </Layout>

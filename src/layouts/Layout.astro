@@ -14,15 +14,18 @@ import Footer from '../components/Footer.astro';
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 	<MainHead title={title} SeoTitle={SeoTitle} SeoDesc={SeoDesc}/>
-	<body class=" mx-auto max-w-screen-xl  font-sans  dark:bg-black xs:text-[16px] md:text-[18px]">
-		<main>
+	<body class=" mx-auto max-w-screen-xl  font-sans  dark:bg-black xs:text-[16px] md:text-[18px] h-full">
+		<div class="wrapper min-h-full flex flex-col">
 		<!-- <Nav client:visible /> -->
 		<Navbar client:visible/>
+		<main class="grow">
 			<slot />
 		</main>
 		<Footer/>
+		</d>
+		
 	</body>
 </html>
 
