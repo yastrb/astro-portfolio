@@ -20,3 +20,28 @@ import data from "../../public/data.json";
     </div>
   </section>
 </Layout>
+
+
+
+   
+
+    <script>
+      
+        var textElement = document.getElementById("text");
+        
+
+        var textVariations = ["","",""];
+        
+        var currentIndex = 0;
+
+
+        function changeText() {
+            textElement.textContent = textVariations[currentIndex];
+            currentIndex = (currentIndex + 1) % textVariations.length;
+        }
+
+        setInterval(changeText, 2000);
+    </script>
+
+
+
