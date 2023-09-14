@@ -31,11 +31,38 @@
     "items": [
         {
            "id":"1",
-           "src":"https://camo.githubusercontent.com/d458b55282fc167f5a189b35e54f966acdd5100d9331d90bea6416f2805e7f95/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d706c61696e2e737667"
+           "src":"https://camo.githubusercontent.com/d458b55282fc167f5a189b35e54f966acdd5100d9331d90bea6416f2805e7f95/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d706c61696e2e737667",
+           "title":"HTML5"
         },
         {
            "id":"2",
-           "src":"https://camo.githubusercontent.com/ad8fbf7f75f04b296b72beb893acf572b364e69ec35ea41a68a29507f5b1cd1b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d706c61696e2e737667"
+           "src":"https://camo.githubusercontent.com/ad8fbf7f75f04b296b72beb893acf572b364e69ec35ea41a68a29507f5b1cd1b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d706c61696e2e737667",
+           "title":"CSS3"
+        },
+        {
+            "id":"3",
+            "src":"https://camo.githubusercontent.com/528e232c728b497080cbf31d2a7e797caa81e402ff81643f79b2c2c395a29f17/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d706c61696e2e737667",
+            "title":"JavaScript"
+        },
+        {
+            "id":"4",
+            "src":"https://camo.githubusercontent.com/27d0b117da00485c56d69aef0fa310a3f8a07abecc8aa15fa38c8b78526c60ac/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667",
+            "title":"React"
+        },
+        {
+            "id":"5",
+            "src":"https://camo.githubusercontent.com/ddd323c6c51fbc9a81fcbb60fe25a588ab59fdd6567b7e827f4d2d5c4e09f6a1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d706c61696e2e737667",
+            "title":"Git"
+        },
+        {
+            "id":"6",
+            "src":"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "title":"Github"
+        },
+        {
+            "id":"7",
+            "src":"https://camo.githubusercontent.com/b8c2ccc146c63df9e504046837230a0415d4e813253b35b454d1910bf612c646/68747470733a2f2f626573746f666a732e6f72672f6c6f676f732f617374726f2e737667",
+            "title":"Astro"
         }
 
     ]

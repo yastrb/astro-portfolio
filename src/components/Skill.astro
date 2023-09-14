@@ -1,5 +1,5 @@
 ﻿---
-const { img } = Astro.props;
+const { img, title } = Astro.props;
 ---
 
 <!-- <div
@@ -10,8 +10,10 @@ const { img } = Astro.props;
         <button class=" p-3 bg-gradient-to-br from-[#b3acf9] to-[#ff9574] transition ease-in-out hover:scale-110 duration-700  hover:bg-gradient-to-tl rounded-md text-[#ffffff]">view projects</button>
     </a>
 </div> -->
-<div class=" w-[50%] h-[142px] mb-2 bg-main">
+<div class="skill flex flex-col justify-around text-center  w-[48%] md:w-[25%] h-[142px] mb-6">
     <img
         src={img}
+        class=" w-[50%] h-[72px] bg-cover mx-auto "
     >
+    <p>{title}</p>
 </div>

@@ -1,6 +1,7 @@
 ﻿---
 import Skill from "./Skill.astro";
 import { motion } from "framer-motion";
+import data from "../../public/data.json"
 ---
 
 <section class="relative flex flex-col items-center my-8">
@@ -11,9 +12,11 @@ import { motion } from "framer-motion";
   </p>
   <div class="w-full">
     <div class="px-6 my-6 mx-auto">
-      <div class="mx-auto flex  flex-wrap  justify-center gap-5 px-9 max-w-3xl">
+      <div class="mx-auto flex flex-row flex-wrap px-9 max-w-3xl">
 
-        <Skill/>
+        
+          {data.items.map((item)=><Skill img ={item.src} title={item.title}/>)}
+  
         <!-- <motion.div
           client:visible
           initial={{ scale: 0 }}
