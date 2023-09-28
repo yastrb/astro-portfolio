@@ -8,5 +8,7 @@ export default defineConfig({
   image: {
     service: squooshImageService(),
   },
-  integrations: [tailwind(), react()]
+  integrations: [tailwind(), react({
+    experimentalReactChildren: true,
+  })]
 });

@@ -51,18 +51,34 @@
         },
         {
             "id":"5",
-            "src":"https://camo.githubusercontent.com/ddd323c6c51fbc9a81fcbb60fe25a588ab59fdd6567b7e827f4d2d5c4e09f6a1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d706c61696e2e737667",
-            "title":"Git"
+            "src":"https://camo.githubusercontent.com/b8c2ccc146c63df9e504046837230a0415d4e813253b35b454d1910bf612c646/68747470733a2f2f626573746f666a732e6f72672f6c6f676f732f617374726f2e737667",
+            "title":"Astro"
         },
+          
         {
             "id":"6",
-            "src":"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "src":"https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png",
             "title":"Github"
         },
         {
             "id":"7",
-            "src":"https://camo.githubusercontent.com/b8c2ccc146c63df9e504046837230a0415d4e813253b35b454d1910bf612c646/68747470733a2f2f626573746f666a732e6f72672f6c6f676f732f617374726f2e737667",
-            "title":"Astro"
+            "src":"https://camo.githubusercontent.com/ddd323c6c51fbc9a81fcbb60fe25a588ab59fdd6567b7e827f4d2d5c4e09f6a1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d706c61696e2e737667",
+            "title":"Git"
+        },
+        {
+            "id":"8",
+            "src":"https://camo.githubusercontent.com/26901b819fb10ef4e2c652aa40e24775247664d84a7597bebb66898a24dddedd/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f736173732f736173732d6f726967696e616c2e737667",
+            "title":"SASS"
+        },
+        {
+            "id":"9",
+            "src":"https://camo.githubusercontent.com/bdedcbc949feefecc3ff98f7e655ee8151b522e2f32196c648620f5366d909d5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7461696c77696e646373732f7461696c77696e646373732d706c61696e2e737667",
+            "title":"Tailwind"
+        },
+        {
+            "id":"10",
+            "src":"https://camo.githubusercontent.com/cdd289ae72f33665800bc6a63936d5afa0454214d520945780894151112a055f/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6669676d612f6669676d612d6f726967696e616c2e737667",
+            "title":"Figma"
         }
 
     ]
