@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro"
 import ProjectCard from "../components/ProjectCard.astro";
 // const allProjects= await Astro.glob('../pages/data/*.md');
-import data from "../../public/data.json";
+import data from "../data.json";
 
 ---
 
@@ -13,9 +13,9 @@ import data from "../../public/data.json";
 >
   <section class="flex max-w-4xl mx-auto pt-32 px-4">
     <div class="w-10/12 mx-auto">
-      <h1>My Projects</h1>
+      <h1>A Selection Of Stuff I've Built</h1>
       <div class="mx-auto grid md:grid-cols-2 grid-cols-1 gap-4 my-16">
-        {data.projects.map((project) => <ProjectCard img={project.src} title={project.title} url={project.url} />)}
+        <!-- {data.projects.map((project) => <ProjectCard img={project.src} title={project.title} url={project.url} />)} -->
       </div>
     </div>
   </section>

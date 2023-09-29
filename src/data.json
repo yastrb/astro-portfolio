@@ -2,30 +2,41 @@
     "projects" : [
         {
             "id": "1",
-            "src": "../src/images/img_2.png",
-            "title":"Fairy Forest",
-            "url":"https://yastrb.github.io/Parallax-landing/"
+            "src": "../src/images/screen_1.png",
+            "title":"Rescuing Treasures: Donations for Zoos and Their Inhabitants",
+            "url":"https://yastrb.github.io/Parallax-landing/",
+            "desc":"Website dedicated to saving animals in zoos. This site collect donations to help zoos improve the living conditions and medical care of their inhabitants.",
+            "tools":"This project is built using the React library, as well as tools such as Formik and Yupp."
 
-        },
-        {
-            "id": "2",
-            "src": "../src/images/img_3.png",
-            "title":"Juice",
-            "url": "https://yastrb.github.io/juice-responsive/"
         },
         {
             "id": "1",
-            "src": "../src/images/img_2.png",
-            "title":"Fairy Forest",
-            "url":"https://yastrb.github.io/Parallax-landing/"
+            "src": "../src/images/screen_1.png",
+            "title":"Rescuing Treasures: Donations for Zoos and Their Inhabitants",
+            "url":"https://yastrb.github.io/Parallax-landing/",
+            "desc":"Website dedicated to saving animals in zoos. This site collect donations to help zoos improve the living conditions and medical care of their inhabitants.",
+            "tools":"This project is built using the React library, as well as tools such as Formik and Yupp."
 
         },
         {
-            "id": "2",
-            "src": "../src/images/img_3.png",
-            "title":"Juice",
-            "url": "https://yastrb.github.io/juice-responsive/"
+            "id": "1",
+            "src": "../src/images/screen_1.png",
+            "title":"Rescuing Treasures: Donations for Zoos and Their Inhabitants",
+            "url":"https://yastrb.github.io/Parallax-landing/",
+            "desc":"Website dedicated to saving animals in zoos. This site collect donations to help zoos improve the living conditions and medical care of their inhabitants.",
+            "tools":"This project is built using the React library, as well as tools such as Formik and Yupp."
+
+        },
+        {
+            "id": "1",
+            "src": "../src/images/screen_1.png",
+            "title":"Rescuing Treasures: Donations for Zoos and Their Inhabitants",
+            "url":"https://yastrb.github.io/Parallax-landing/",
+            "desc":"Website dedicated to saving animals in zoos. This site collect donations to help zoos improve the living conditions and medical care of their inhabitants.",
+            "tools":"This project is built using the React library, as well as tools such as Formik and Yupp."
+
         }
+
 
     ],
     "items": [
@@ -54,12 +65,6 @@
             "src":"https://camo.githubusercontent.com/b8c2ccc146c63df9e504046837230a0415d4e813253b35b454d1910bf612c646/68747470733a2f2f626573746f666a732e6f72672f6c6f676f732f617374726f2e737667",
             "title":"Astro"
         },
-          
-        {
-            "id":"6",
-            "src":"https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png",
-            "title":"Github"
-        },
         {
             "id":"7",
             "src":"https://camo.githubusercontent.com/ddd323c6c51fbc9a81fcbb60fe25a588ab59fdd6567b7e827f4d2d5c4e09f6a1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d706c61696e2e737667",
@@ -79,7 +84,13 @@
             "id":"10",
             "src":"https://camo.githubusercontent.com/cdd289ae72f33665800bc6a63936d5afa0454214d520945780894151112a055f/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6669676d612f6669676d612d6f726967696e616c2e737667",
             "title":"Figma"
+        },
+        {
+            "id":"11",
+            "src":"https://camo.githubusercontent.com/ba970bd6d13510f6dfe9c0a25fb1a5b95a9da0b003dae4a44250765adfdcda50/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f6d75692e706e67",
+            "title":"MUI"
         }
+    
 
     ]
 }
