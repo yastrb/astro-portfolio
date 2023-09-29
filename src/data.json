@@ -24,7 +24,7 @@
             "title":"Rescuing Treasures: Donations for Zoos and Their Inhabitants",
             "url":"https://yastrb.github.io/Parallax-landing/",
             "desc":"Website dedicated to saving animals in zoos. This site collect donations to help zoos improve the living conditions and medical care of their inhabitants.",
-            "tools":"This project is built using the React library, as well as tools such as Formik and Yupp."
+            "tools":"This project is built using the React library, as well as tools such as SCSS, React Router, Formik and Yupp."
 
         },
         {

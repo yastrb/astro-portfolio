@@ -1,25 +1,27 @@
 ﻿---
-const {title, url, img} = Astro.props
-import {Image } from "astro:assets"
+const { title, url, img } = Astro.props;
 ---
-<article class= "mx-auto w-[20rem] h-[20rem] overflow-hidden relative group"
->
 
-<a 
-href={url}
-target="_blank" 
->
-    <!-- <h3 class="font-black">{title}</h3> -->
-    <img 
-    class=" w-full h-full scale-100 hover:scale-110 transition duration-[1.5s]" 
-    src={img} 
-    alt="">
-    
+<article class="mx-auto h-[20rem] relative group">
+  <a href={url} target="_blank">
+    <div class="flex">
+      <div class="container-img w-[55%]">
+        <img
+        class=" h-full w-full scale-100 "
+        src={img}
+        alt=""
+      />
+      </div>
+   <div class="container-text w-[45%]">
+    <h3 class=" font-semibold text-2xl">{title}</h3>
+   </div>
+      
 
-    </a>
-    <div
+    </div>
+  </a>
+  <!-- <div
     class="absolute w-full bottom-0 left-0 backdrop-blur-md dark:text-white text-white bg-black/50 p-4 translate-y-[100%] group-hover:translate-y-0 transition duration-700"
-  >
-    <h3 class="mr-2 text-xl">{title}</h3>
+  > -->
+    
   </div>
 </article>
