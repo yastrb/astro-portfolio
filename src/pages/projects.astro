@@ -15,8 +15,16 @@ import data from "../data.json";
     <div class="w-10/12 mx-auto">
       <h1 class=" font-semibold text-4xl text-center my-10">A Selection Of Stuff I've Built</h1>
       <div class="mx-auto flex flex-col pt-16">
-        <!-- {data.projects.map((project) => <ProjectCard img={project.src} title={project.title} url={project.url} />)} -->
-        {data.projects.map((project)=><ProjectCard img={project.src} title={project.title} url={project.url}/>)}
+
+        {data.projects.map((project,index)=>
+        <ProjectCard 
+        img={project.src} 
+        title={project.title} 
+        url={project.url} 
+        desc={project.desc} 
+        tools={project.tools}
+        reverseOrder={index % 2 === 0}
+        />)}
       </div>
     </div>
   </section>

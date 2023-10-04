@@ -1,10 +1,10 @@
 ﻿---
-const { title, url, img } = Astro.props;
+const { title, url, img, desc, tools, reverseOrder} = Astro.props;
 ---
 
-<article class="mx-auto h-[20rem] relative group">
+<article class="mx-auto h-[20rem] relative group ">
   <a href={url} target="_blank">
-    <div class="flex">
+    <div class="flex ${reverseOrder ? 'flex-row-reverse' : ''}">
       <div class="container-img w-[55%]">
         <img
         class=" h-full w-full scale-100 "
@@ -12,11 +12,11 @@ const { title, url, img } = Astro.props;
         alt=""
       />
       </div>
-   <div class="container-text w-[45%]">
-    <h3 class=" font-semibold text-2xl">{title}</h3>
-   </div>
-      
-
+      <div class="container-text w-[45%]">
+        <h3 class=" font-semibold text-2xl">{title}</h3>
+        <p>{desc}</p>
+        <p>{tools}</p>
+    </div>
     </div>
   </a>
   <!-- <div
